@@ -1,4 +1,4 @@
-DOCUMENTATION
+____DOCUMENTATION___
 
 1. LogAnalyzer: Class that initializes necessary variables and data structures and maintains methods
 
