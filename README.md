@@ -2,7 +2,7 @@ DOCUMENTATION
 
 1. LogAnalyzer: Class that initializes necessary variables and data structures and maintains methods
 
-2. init: Constructor to read line by line and update statistics on the fly
+2. __init__: Constructor to read line by line and update statistics on the fly
 
 3. record_validity: Method to check validity of record 
 
