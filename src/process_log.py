@@ -114,7 +114,7 @@ class LogAnalyzer(): #class to process log data
 			for ip in self.ip_map:
 				final_list = self.check_blocking_condition(ip)
 				for item in final_list:
-					ob.write(item)
+					ob.write(item+"\n")
 
 	def check_blocking_condition(self,ip): #create lists of ip addresses to be blocked
 		ip_block_check = []
@@ -138,6 +138,5 @@ class LogAnalyzer(): #class to process log data
 		return return_list			
 
 if __name__ == "__main__":
-	start_time = time.time()
 	LogAnalyzer(argv[1],argv[2],argv[3],argv[4],argv[5])
-	print ("--- %s seconds ---" % (time.time() - start_time))
+
