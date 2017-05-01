@@ -25,4 +25,3 @@ ___DOCUMENTATION___
 11. check_blocking_condition: A helper method to check if a particular ip has to be blocked
 
 
-NOTE: Two of the test cases fail when running run_tests.sh, but the code does work on the main dataset.
